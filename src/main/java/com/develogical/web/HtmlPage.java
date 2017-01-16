@@ -1,6 +1,7 @@
 package com.develogical.web;
 
 import javax.servlet.http.HttpServletResponse;
+//import java.io.IOException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -11,6 +12,7 @@ public abstract class HtmlPage {
         writeHeaderTo(writer);
         writeContentTo(writer);
         writeFooterTo(writer);
+
     }
 
     private void writeHeaderTo(PrintWriter writer) {
